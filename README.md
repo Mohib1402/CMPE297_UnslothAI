@@ -16,7 +16,7 @@ All experiments run **entirely in Google Colab with GPU** and are explained in *
 
 Single walkthrough for all 5 Colabs:
 
-* Demo: [Link](https://youtube.com)
+* Demo: [Link](https://drive.google.com/file/d/1N3B3hMohxCFDseRyXO3agU4JIZciCCbk/view?usp=sharing)
 
 ---
 
