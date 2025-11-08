@@ -16,7 +16,7 @@ All experiments run **entirely in Google Colab with GPU** and are explained in *
 
 Single walkthrough for all 5 Colabs:
 
-* YouTube: [https://youtu.be/`YOUR_DEMO_LINK_HERE`](https://youtu.be/`YOUR_DEMO_LINK_HERE`)
+* Demo: [Link](https://youtube.com)
 
 ---
 
@@ -32,11 +32,11 @@ Single walkthrough for all 5 Colabs:
 
 Colab links (placeholders):
 
-* Colab 1: [https://colab.research.google.com/drive/`COLAB1_ID_HERE`](https://colab.research.google.com/drive/`COLAB1_ID_HERE`)
-* Colab 2: [https://colab.research.google.com/drive/`COLAB2_ID_HERE`](https://colab.research.google.com/drive/`COLAB2_ID_HERE`)
-* Colab 3: [https://colab.research.google.com/drive/`COLAB3_ID_HERE`](https://colab.research.google.com/drive/`COLAB3_ID_HERE`)
-* Colab 4: [https://colab.research.google.com/drive/`COLAB4_ID_HERE`](https://colab.research.google.com/drive/`COLAB4_ID_HERE`)
-* Colab 5: [https://colab.research.google.com/drive/`COLAB5_ID_HERE`](https://colab.research.google.com/drive/`COLAB5_ID_HERE`)
+* Colab 1: [Link](https://colab.research.google.com/drive/1jYieqvd00MiSWXijzD5ybSxxqBYF-Ke7?usp=sharing)
+* Colab 2: [Link](https://colab.research.google.com/drive/1uR6CC6vxwuZ7U8dlp43QhJkLV3dLrgwf?usp=sharing)
+* Colab 3: [Link](https://colab.research.google.com/drive/1L5n3v1mhECB1nufJvwec5_hy-eFzrArB?usp=sharing)
+* Colab 4: [Link](https://colab.research.google.com/drive/13mGU6kRFNKq-7DHtwTHWjvzCnpYJiTnz?usp=sharing)
+* Colab 5: [Link](https://colab.research.google.com/drive/1tN3LaMJya3lNTrRALagAfIs-UHeMZLOP?usp=sharing)
 
 ---
 
@@ -62,7 +62,7 @@ xformers = "xformers==0.0.27" if V(torch_version) < V("2.4.0") else "xformers"
 
 ## 📝 Colab 1 – Full Supervised Fine-Tuning (SmolLM2-135M)
 
-**Link:** [https://colab.research.google.com/drive/`COLAB1_ID_HERE`](https://colab.research.google.com/drive/`COLAB1_ID_HERE`)
+**Link:** [Colab 1](https://colab.research.google.com/drive/1jYieqvd00MiSWXijzD5ybSxxqBYF-Ke7?usp=sharing)
 
 **Goal**
 Train a small model with **full supervised fine-tuning** (all weights trainable) on a tiny coding/chat dataset.
@@ -87,7 +87,7 @@ Train a small model with **full supervised fine-tuning** (all weights trainable)
 
 ## 🧩 Colab 2 – LoRA / QLoRA Fine-Tuning (SmolLM2-135M)
 
-**Link:** [https://colab.research.google.com/drive/`COLAB2_ID_HERE`](https://colab.research.google.com/drive/`COLAB2_ID_HERE`)
+**Link:** [Colab 2](https://colab.research.google.com/drive/1uR6CC6vxwuZ7U8dlp43QhJkLV3dLrgwf?usp=sharing)
 
 **Goal**
 Repeat Colab 1’s task using **LoRA with 4-bit loading** for parameter-efficient training.
@@ -112,7 +112,7 @@ Repeat Colab 1’s task using **LoRA with 4-bit loading** for parameter-efficien
 
 ## 🎯 Colab 3 – Preference RL with DPO (Prompt / Chosen / Rejected)
 
-**Link:** [https://colab.research.google.com/drive/`COLAB3_ID_HERE`](https://colab.research.google.com/drive/`COLAB3_ID_HERE`)
+**Link:** [Colab 3](https://colab.research.google.com/drive/1L5n3v1mhECB1nufJvwec5_hy-eFzrArB?usp=sharing)
 
 **Goal**
 Demonstrate **Direct Preference Optimization (DPO)** using a tiny hand-crafted preference dataset.
@@ -139,7 +139,7 @@ Demonstrate **Direct Preference Optimization (DPO)** using a tiny hand-crafted p
 
 ## 🧠 Colab 4 – GRPO-Style RL for Reasoning
 
-**Link:** [https://colab.research.google.com/drive/`COLAB4_ID_HERE`](https://colab.research.google.com/drive/`COLAB4_ID_HERE`)
+**Link:** [Colab 4](https://colab.research.google.com/drive/13mGU6kRFNKq-7DHtwTHWjvzCnpYJiTnz?usp=sharing)
 
 **Goal**
 Implement a simple **GRPO-style RL loop** for **math reasoning** with a programmatic reward.
@@ -171,7 +171,7 @@ Implement a simple **GRPO-style RL loop** for **math reasoning** with a programm
 
 ## 🌍 Colab 5 – Continued Pretraining in a New Language
 
-**Link:** [https://colab.research.google.com/drive/`COLAB5_ID_HERE`](https://colab.research.google.com/drive/`COLAB5_ID_HERE`)
+**Link:** [Colab 5](https://colab.research.google.com/drive/1tN3LaMJya3lNTrRALagAfIs-UHeMZLOP?usp=sharing)
 
 **Goal**
 Show **continued pretraining (CPT)** of a model on text written in a **non-English language**.
